@@ -114,8 +114,8 @@ if __name__ == '__main__':
             speak(pyjokes.get_joke())
 
         elif "whatsapp" in query:
-            print("yess")
-            pywhatkit.sendwhatmsg_instantly('+919752506868', 'Thankssss' )
+            # print("yess")
+            pywhatkit.sendwhatmsg_instantly('+91 phone number', 'Message' )
 
         # elif "camera" or "take a photo" in query:
         #     ec.capture(0, "Jarvis Camera", "img.png")
